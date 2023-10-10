@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom style */
+
+.container-1 {
+
+    background-color: #5385C1;
+    padding: 50px 150px;
+
+}
+
+.left {
+    
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.right {
+
+    float: right;
+    text-decoration: none;
+
+}
+
+.right > a {
+
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.middle-content {
+
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+
+.middle-content > h1 {
+
+    font-size: 48px;
+    color: white;
+
+}
+
+.middle-content > p {
+
+    font-size: 12px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.clearfix::before, .clearfix::after {
+
+    content: "";
+    display: table;
+
+}
+
+.clearfix::after {
+
+    clear: both;
+
+}
+
+.container-2 {
+
+    padding: 50px 150px;
+
+}
+
+.text-box {
+
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    /* padding: 0 20px; */
+
+}
+
+.text-box > h2 {
+
+    font-size: 24px;
+    color: #5385C1;
+    width: 80%;
+
+}
+
+.text-box > p, .last-sec-img > div > p {
+
+    font-size: 16px;
+    width: 90%;
+    margin: 25px 0;
+
+}
+
+.text-box > a, .more {
+
+    padding: 10px 15px;
+    background-color: #5385C1;
+    text-decoration: none;
+    color: white;
+
+}
+
+.container-3 {
+
+    background-color: #5385C1;
+    padding: 80px 150px;
+
+}
+
+.text-content {
+
+    text-align: center;
+    color: white;
+
+}
+
+.text-content > h2 {
+
+    font-size: 42px;
+    margin-bottom: 20px;
+
+}
+
+.text-content > p {
+
+    font-size: 16px;
+    margin-bottom: 50px;
+
+}
+
+.images {
+
+    float: left;
+    border: 1px solid white;
+    width: 245px;
+    padding: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+.images > img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.images > h2 {
+
+    font-size: 24px;
+    color: white;
+    margin: 24px 0;
+
+}
+
+.images > p {
+
+    color: white;
+
+}
+
+.container-4 {
+
+    padding: 0 150px;
+
+}
+
+.blue {
+
+    color: blue;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.gray {
+
+    color: gray;
+    margin-bottom: 50px;
+
+}
+
+.last-sec-img > div {
+
+    float: left;
+    margin-right: 60px;
+    width: 45%;
+
+}
+
+.last-sec-img > div > img {
+
+    width: 100%;
+    height: 200px;
+
+}
+
+.container-5 {
+
+    padding: 50px 150px;
+
+}
+
+.right-links > p > img {
+
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+hr {
+
+    width: calc(100% - 300px);
+    margin-top: 50px;
+    
+}
